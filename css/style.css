@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-ul{
+    list-style: none;
+    background-color: beige;
+    padding: 15px;
+}
+
+.menu-item{
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+.menu-item a:hover{
+    color: brown;
+}
+.banner{
+    background-image: url('https://wallpaperaccess.com/full/187161.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-heading{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.head-section{
+    margin: 100px 0px 50px 0px;
+}
+.head-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.head-sub-title{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ccc;
+}
+
+.half{
+    width: 40%;
+    margin: 2%;
+    float: left;
+}
+
+.about-ul{
+    list-style: none;
+}
+
+.hire-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(30deg, brown, lime);
+    color: #fff;
+}
+
+.hire-btn:hover{
+    background-image: linear-gradient(30deg, lime, brown);
+
+}
+
+#about{
+    height: 50vh;
+}
+.about-icon{
+    font-size: 20px;
+    color: coral;
+}
+
+.oneThird{
+    width: 28%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+.service-icon{
+    text-align: center;
+    color: #dc3545;
+}
+.service-icon i{
+    font-size: 50px;
+}
+
+.service-title{
+    font-size: 30px;
+    text-align: center;
+}
+.service-desc{
+    font-size: 20px;
+    text-align: center;
+}
+
+.card{
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 1px 1px 50px 2px;
+}
+
+.form-group input{
+    height: 45px;
+    width: 290px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    color: coral;
+}
+
